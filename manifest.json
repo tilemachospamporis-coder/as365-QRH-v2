@@ -1,0 +1,9 @@
+{
+  "name": "AS365 N3 QRH",
+  "short_name": "AS365 QRH",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#09111f",
+  "theme_color": "#09111f",
+  "description": "Offline-capable AS365 N3 digital quick reference handbook."
+}

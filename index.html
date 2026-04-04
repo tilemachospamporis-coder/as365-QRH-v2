@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#09111f">
+  <title>AS365 N3 QRH</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand-row">
+      <div>
+        <div class="brand-title">AS365 N3 QRH</div>
+        <div class="brand-sub">Digital Airbus-style compact quick reference</div>
+      </div>
+      <div id="offlineBadge" class="status-badge">Offline</div>
+    </div>
+    <div class="toolbar">
+      <button class="icon-btn" onclick="goBack()">← Back</button>
+      <button class="icon-btn" onclick="goHome()">⌂ Home</button>
+      <input id="search" class="search" type="search" placeholder="Search title, condition, action...">
+    </div>
+    <div id="breadcrumbs" class="breadcrumbs">Home</div>
+  </header>
+
+  <main class="container">
+    <div id="app"></div>
+  </main>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => navigator.serviceWorker.register('./service-worker.js'));
+    }
+  </script>
+</body>
+</html>
