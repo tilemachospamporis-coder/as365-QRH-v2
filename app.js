@@ -173,18 +173,21 @@ function procedureView(category, procedure) {
         </div>
       </section>
       ${procedure.image ? `
-  <section class="panel">
-    <div class="panel-title">REFERENCE IMAGE</div>
-    <img src="${procedure.image}" alt="${procedure.title}" class="procedure-image">
-  </section>
+<section class="panel">
+  <div class="panel-title">REFERENCE IMAGE</div>
+  <img src="${procedure.image}" alt="${procedure.title}" class="procedure-image">
+</section>
 ` : ''}
+      
+    
+
 
 
 ${block('Immediate Actions', procedure.actions, 'actions')}
 ${block('Follow-up / Decision', procedure.followUp, 'follow')}
 ${block('Crew Calls', procedure.crew, 'crew')}
 ${block('Critical Notes', procedure.notes, 'notes')}
-';
+`;
 }
 
 function render() {
