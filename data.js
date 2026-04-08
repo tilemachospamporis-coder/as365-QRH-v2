@@ -73,7 +73,7 @@ window.QRH_DATA = {
             "Single-engine landing profile required."
           ],
           "image": "images/engine-fire.jpeg",
-          ,
+        
           "lights": ["ENG F", "ENG.1", "ENG.2"]
         },
         {
