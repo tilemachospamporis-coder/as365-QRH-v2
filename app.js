@@ -187,6 +187,14 @@ ${block('Immediate Actions', procedure.actions, 'actions')}
 ${block('Follow-up / Decision', procedure.followUp, 'follow')}
 ${block('Crew Calls', procedure.crew, 'crew')}
 ${block('Critical Notes', procedure.notes, 'notes')}
+${procedure.lights ? `
+<section class="panel">
+  <div class="panel-title">WARNING LIGHTS</div>
+  <div class="lights">
+    ${procedure.lights.map(l => `<span class="light">${l}</span>`).join('')}
+  </div>
+</section>
+` : ''}
 `;
 }
 
