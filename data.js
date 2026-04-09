@@ -2,7 +2,7 @@ window.QRH_DATA = {
   "meta": {
     "title": "AS365 N3 QRH",
     "subtitle": "Airbus-style compact digital quick reference",
-    "version": "v1.0",
+    "version": "v1.1",
     "offline": true
   },
 
