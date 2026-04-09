@@ -40,8 +40,7 @@ window.QRH_DATA = {
         "General reference page, not a procedure."
       ],
       "image": "images/warning-system-general.jpeg"
-    }
-  }
+    }  
 ]
 },
 
