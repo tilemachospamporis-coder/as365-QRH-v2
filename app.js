@@ -101,7 +101,8 @@ function homeView() {
       </div>
     </section>
     ${favoritesHtml}
-    <section class="category-grid">
+${warningIndexHtml}
+<section class="category-grid">
       ${filteredCategories.map(cat => `
         <button class="category-card" data-category="${cat.id}">
           <div class="category-icon">${cat.icon}</div>
