@@ -6,15 +6,7 @@ window.QRH_DATA = {
     "offline": true
   },
 
-  "warningIndex": [
-    {
-      "id": "warn-engine-fire",
-      "title": "Engine Fire",
-      "lights": ["ENG F", "ENG.1", "ENG.2"],
-      "categoryId": "fire",
-      "procedureId": "engine-fire"
-    }
-  ],
+
 
   "categories": [
         {
