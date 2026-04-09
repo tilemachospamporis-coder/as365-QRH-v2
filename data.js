@@ -49,11 +49,18 @@ window.QRH_DATA = {
       ],
       "image": "images/warning-system-general.jpeg"
     }
-  ]
-}, 
-        }
-      ]
-    },
+  }
+]
+},
+
+        
+      
+
+
+
+
+
+  
     {
       "id": "fire",
       "title": "FIRE",
