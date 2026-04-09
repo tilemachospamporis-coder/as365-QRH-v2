@@ -81,7 +81,7 @@ function homeView() {
   }
 let warningIndexHtml = '';
 
-if (window.QRH_DATA.warningIndex?.length) {
+if (window.QRH_DATA.warningIndex && window.QRH_DATA.warningIndex.length) {
   warningIndexHtml = `
   <section class="panel">
     <div class="panel-title">WARNING LIGHTS / FIND PROCEDURE</div>
