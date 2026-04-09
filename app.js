@@ -54,6 +54,7 @@ function updateBreadcrumbs() {
 }
 
 function homeView() {
+
   const categories = getCategories();
   const search = state.search.trim().toLowerCase();
 
@@ -78,7 +79,25 @@ function homeView() {
         `).join('')}</div>
       </section>`;
   }
+let warningIndexHtml = '';
 
+if (window.QRH_DATA.warningIndex?.length) {
+  warningIndexHtml = `
+  <section class="panel">
+    <div class="panel-title">WARNING LIGHTS / FIND PROCEDURE</div>
+    <div class="lights-index">
+      ${window.QRH_DATA.warningIndex.map(item => `
+        <div class="light-card" data-category="${item.categoryId}" data-procedure="${item.procedureId}">
+          <div class="lights">
+            ${item.lights.map(l => `<span class="light">${l}</span>`).join('')}
+          </div>
+          <div class="light-title">${item.title}</div>
+        </div>
+      `).join('')}
+    </div>
+  </section>
+  `;
+}
   const filteredCategories = categories.map(cat => {
     const procedures = cat.procedures.filter(proc => {
       const hay = [cat.title, proc.title, proc.condition, ...(proc.actions||[]), ...(proc.followUp||[]), ...(proc.notes||[])].join(' ').toLowerCase();
@@ -100,6 +119,7 @@ function homeView() {
       </div>
     </section>
     ${favoritesHtml}
+    ${warningIndexHtml}
     <section class="category-grid">
       ${filteredCategories.map(cat => `
         <button class="category-card" data-category="${cat.id}">
