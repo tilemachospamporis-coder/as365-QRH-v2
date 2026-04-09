@@ -18,30 +18,39 @@ window.QRH_DATA = {
 
   "categories": [
         {
-          "id": "warning-system-general",
-          "title": "Warning System – General",
-          "severity": "info",
-          "condition": "Warning panel / aural warning reference",
-          "actions": [
-            "NR ≤ 345 RPM ............... 3 Hz DISCONTINUOUS",
-            "NR ≥ 380 RPM ............... 10 Hz DISCONTINUOUS",
-            "ΔNg > 6% ................... GONG",
-            "FLIGHT LIMIT GONG .......... LOAD FACTOR / TORQUE / ΔNg / CYCLIC LIMIT"
-          ],
-          "followUp": [
-            "LAND IMMEDIATELY ........... LAND WITHOUT DELAY",
-            "LAND ASAP .................. NEAREST SUITABLE AREA",
-            "LAND ASAP PRACTICABLE ...... SUITABLE AREA WITH SUPPORT",
-            "CONTINUE FLIGHT ............ AS PLANNED"
-          ],
-          "crew": [
-            "PF: REVIEW WARNING TYPE",
-            "PM: CONFIRM VISUAL / AURAL INDICATION"
-          ],
-          "notes": [
-            "General reference page, not a procedure."
-          ],
-          "image": "images/warning-system-general.jpeg"
+         
+  "id": "general",
+  "title": "GENERAL",
+  "icon": "ℹ️",
+  "procedures": [
+    {
+      "id": "warning-system-general",
+      "title": "Warning System - General",
+      "severity": "info",
+      "condition": "Warning panel / aural warning reference",
+      "actions": [
+        "NR ≤ 345 RPM .............. 3 Hz DISCONTINUOUS",
+        "NR ≥ 380 RPM .............. 10 Hz DISCONTINUOUS",
+        "ΔNg > 6% ................. GONG",
+        "FLIGHT LIMIT GONG ........ LOAD FACTOR / TORQUE / ΔNg / CYCLIC LIMIT"
+      ],
+      "followUp": [
+        "LAND IMMEDIATELY .......... LAND WITHOUT DELAY",
+        "LAND ASAP .................. NEAREST SUITABLE AREA",
+        "LAND ASAP PRACTICABLE ...... SUITABLE AREA WITH SUPPORT",
+        "CONTINUE FLIGHT ........... AS PLANNED"
+      ],
+      "crew": [
+        "PF: REVIEW WARNING TYPE",
+        "PM: CONFIRM VISUAL / AURAL INDICATION"
+      ],
+      "notes": [
+        "General reference page, not a procedure."
+      ],
+      "image": "images/warning-system-general.jpeg"
+    }
+  ]
+}, 
         }
       ]
     },
