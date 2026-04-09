@@ -5,12 +5,18 @@ window.QRH_DATA = {
     "version": "v1.0",
     "offline": true
   },
-  "categories": [
+
+  "warningIndex": [
     {
-      "id": "general",
-      "title": "GENERAL",
-      "icon": "ℹ️",
-      "procedures": [
+      "id": "warn-engine-fire",
+      "title": "Engine Fire",
+      "lights": ["ENG F", "ENG.1", "ENG.2"],
+      "categoryId": "fire",
+      "procedureId": "engine-fire"
+    }
+  ],
+
+  "categories": [
         {
           "id": "warning-system-general",
           "title": "Warning System – General",
