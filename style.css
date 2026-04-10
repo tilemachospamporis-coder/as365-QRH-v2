@@ -91,3 +91,21 @@ body { min-height: 100vh; }
   border-radius:12px;
   border:1px solid rgba(255,255,255,.12);
 }
+.light {
+  display: inline-block;
+  background: #2a2f3a;
+  color: #fff;
+  padding: 4px 8px;
+  border-radius: 6px;
+  margin-right: 6px;
+  font-size: 12px;
+  font-weight: 500;
+}
+.light:nth-child(1) {
+  background: #ff3b30; /* RED = FIRE */
+}
+
+.light:nth-child(2),
+.light:nth-child(3) {
+  background: #ff9f0a; /* AMBER */
+}
