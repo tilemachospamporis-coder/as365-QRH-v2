@@ -106,7 +106,7 @@ if (window.QRH_DATA.warningIndex && window.QRH_DATA.warningIndex.length) {
     return { ...cat, procedures };
   }).filter(cat => cat.procedures.length || !search);
 
-  return `
+  return`
     <section class="hero panel">
       <div>
         <div class="eyebrow">Offline-ready PWA</div>
