@@ -113,3 +113,11 @@ body { min-height: 100vh; }
   background: #ff3b30;
   box-shadow: 0 0 8px rgba(255, 59, 48, 0.7);
 }
+.light-card {
+  cursor: pointer;
+  transition: transform 0.15s ease;
+}
+
+.light-card:hover {
+  transform: scale(1.05);
+}
