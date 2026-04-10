@@ -109,3 +109,7 @@ body { min-height: 100vh; }
 .light:nth-child(3) {
   background: #ff9f0a; /* AMBER */
 }
+.light:nth-child(1) {
+  background: #ff3b30;
+  box-shadow: 0 0 8px rgba(255, 59, 48, 0.7);
+}
