@@ -121,7 +121,7 @@ body { min-height: 100vh; }
 .light-card:hover {
   transform: scale(1.05);
 }
-.light.ovht {
+.light.o-heat {
   background: #ff9f0a; /* amber */
 }
 
