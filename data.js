@@ -25,7 +25,7 @@ window.QRH_DATA = {
   "title": "Engine Failure in Flight",
   "lights": ["ENG#", "DIF. ENG", "BUS CUPL", "GEN#"],
   "categoryId": "engines",
-  "procedureId": "engine-failure-in-flight"
+  "procedureId": "engine-failure-cruise"
     }
 ],
   "categories": [
