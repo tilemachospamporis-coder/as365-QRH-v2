@@ -89,7 +89,10 @@ if (window.QRH_DATA.warningIndex && window.QRH_DATA.warningIndex.length) {
         ${window.QRH_DATA.warningIndex.map(item => `
           <button class="light-card" data-category="${item.categoryId}" data-procedure="${item.procedureId}">
             <div class="lights">
-              ${item.lights.map(l => `<span class="light">${l}</span>`).join('')}
+              ${item.lights.map(l => {
+  const cls = l.toLowerCase().replace(/[^a-z0-9]/g, '-');
+  return `<span class="light ${cls}">${l}</span>`;
+}).join('')}
             </div>
             <div class="light-title">${item.title}</div>
           </button>
