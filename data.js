@@ -19,11 +19,15 @@ window.QRH_DATA = {
     "lights": ["O/HEAT", "CARGO F", "ALARM"],
     "categoryId": "fire",
     "procedureId": "cargo-bay-fire"
-  }
+  },
+{
+  "id": "warn-engine-failure-in-flight",
+  "title": "Engine Failure in Flight",
+  "lights": ["ENG#", "DIF. ENG", "BUS CUPL", "GEN#"],
+  "categoryId": "engines",
+  "procedureId": "engine-failure-in-flight"
+    }
 ],
-
-
-
   "categories": [
         {
          
