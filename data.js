@@ -12,6 +12,13 @@ window.QRH_DATA = {
     "lights": ["ENG F", "ENG.1", "ENG.2"],
     "categoryId": "fire",
     "procedureId": "engine-fire"
+  },
+  {
+    "id": "warn-cargo-bay-fire",
+    "title": "Cargo Bay Fire",
+    "lights": ["O/HEAT", "CARGO F", "ALARM"],
+    "categoryId": "fire",
+    "procedureId": "cargo-bay-fire"
   }
 ],
 
