@@ -136,3 +136,7 @@ body { min-height: 100vh; }
   font-weight: 700;
   letter-spacing: 1px;
 }
+.light.cargo-f {
+  background: #ff3b30 !important;
+  box-shadow: 0 0 12px rgba(255,59,48,0.8);
+}
