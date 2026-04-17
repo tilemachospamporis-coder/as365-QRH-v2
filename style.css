@@ -140,3 +140,10 @@ body { min-height: 100vh; }
   background: #ff3b30 !important;
   box-shadow: 0 0 12px rgba(255,59,48,0.8);
 }
+/* RED WARNINGS */
+.light.gov,
+.light.dif-eng,
+.light.throttle {
+  background: #ff3b30;
+  box-shadow: 0 0 12px rgba(255,59,48,0.8);
+}
