@@ -288,7 +288,10 @@ window.QRH_DATA = {
             "Avoid rapid throttle movements.",
             "Pause ~2 sec at neutral notch if crossing."
           ],
-          "image": "images/IMG_2338.png"
+          "images": [
+  "images/IMG_2338.png",
+  "images/IMG_2339.png"
+]
         },
         {
           "id": "minor-governor-failure",
