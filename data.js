@@ -20,20 +20,20 @@ window.QRH_DATA = {
     "categoryId": "fire",
     "procedureId": "cargo-bay-fire"
   },
-{
-  "id": "warn-engine-failure-in-flight",
-  "title": "Engine Failure in Flight",
-  "lights": ["ENG#", "DIF. ENG", "BUS CUPL", "GEN#"],
-  "categoryId": "engines",
-  "procedureId": "engine-failure-cruise"
-    }
-    {
-  "id": "warn-major-governor-failure",
-  "title": "Major Governing Failure",
-  "lights": ["GOV#", "DIF. ENG", "THROTTLE LEVER"],
-  "categoryId": "engines",
-  "procedureId": "major-governor-failure"
-}
+  {
+    "id": "warn-engine-failure-in-flight",
+    "title": "Engine Failure in Flight",
+    "lights": ["ENG#", "DIF. ENG", "BUS CUPL", "GEN#"],
+    "categoryId": "engines",
+    "procedureId": "engine-failure-cruise"
+  },
+  {
+    "id": "warn-major-governor-failure",
+    "title": "Major Governing Failure",
+    "lights": ["GOV#", "DIF. ENG", "THROTTLE LEVER"],
+    "categoryId": "engines",
+    "procedureId": "major-governor-failure"
+  }
 ],
   "categories": [
         {
