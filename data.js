@@ -289,7 +289,7 @@ window.QRH_DATA = {
             "Pause ~2 sec at neutral notch if crossing."
           ],
           
-  "image": "images/major-governor-failure.jpg"
+  "image": "images/IMG_2362.jpeg"
 
         },
         {
