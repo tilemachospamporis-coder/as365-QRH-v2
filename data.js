@@ -290,7 +290,7 @@ window.QRH_DATA = {
           ],
           
   "image": "images/major-governor-failure.jpg"
-]
+
         },
         {
           "id": "minor-governor-failure",
