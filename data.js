@@ -27,6 +27,13 @@ window.QRH_DATA = {
   "categoryId": "engines",
   "procedureId": "engine-failure-cruise"
     }
+    {
+  "id": "warn-major-governor-failure",
+  "title": "Major Governing Failure",
+  "lights": ["GOV#", "DIF. ENG", "THROTTLE LEVER"],
+  "categoryId": "engines",
+  "procedureId": "major-governor-failure"
+}
 ],
   "categories": [
         {
