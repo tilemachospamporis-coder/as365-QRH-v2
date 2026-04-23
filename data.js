@@ -1258,7 +1258,7 @@ window.QRH_DATA = {
   ],
   "followUp": [
     "IF LG PUMP LIGHT ON ............. LG PUMP SWITCH NORM",
-    "IF GEAR EXTENDED ............... LAND AS SOON AS PRACTICABLE",
+    "IF GEAR EXTENDED ................ LAND AS SOON AS PRACTICABLE",
     "IF GEAR FAILS TO EXTEND:",
     "ENTER LOW HOVER AND ATTEMPT DOWNLOCK BY GROUND CREW",
     "IF ALL 3 GEAR EXTENDED .......... LAND CAUTIOUSLY",
@@ -1278,6 +1278,7 @@ window.QRH_DATA = {
 ]
 }
 ];
+  
     
 
 
