@@ -1276,7 +1276,7 @@ window.QRH_DATA = {
   "image": "images/emergency-lg-extension.jpeg"
 }
 ]
-}
+
 ];
   
     
