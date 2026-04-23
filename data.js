@@ -826,7 +826,9 @@ window.QRH_DATA = {
             "Cold weather may require > 3 min.",
             "Ensure area clear for gear-up landing."
           ],
-          "image": "images/emergency-lg-extension.jpeg"
+          "image": "images/IMG_1258.jpeg",
+          
+          
         }
       ]
     },
