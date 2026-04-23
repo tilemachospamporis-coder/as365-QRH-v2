@@ -1243,42 +1243,8 @@ window.QRH_DATA = {
             "No go-around below 40 KT."
           ],
           "image": "images/tail-rotor-failure.jpeg"
-        },
-{
-      
-  "id": "emergency-lg-extension",
-  "title": "Emergency L/G Extension",
-  "severity": "warning",
-  "condition": "Landing gear extension in emergency mode",
-  "actions": [
-    "LANDING GEAR CONTROL ............ DOWN",
-    "LG PUMP SWITCH .................. EMERG",
-    "HYD AUX SWITCH .................. BY PASS",
-    "WAIT 1 MIN APPROX"
-  ],
-  "followUp": [
-    "IF LG PUMP LIGHT ON ............. LG PUMP SWITCH NORM",
-    "IF GEAR EXTENDED ................ LAND AS SOON AS PRACTICABLE",
-    "IF GEAR FAILS TO EXTEND:",
-    "ENTER LOW HOVER AND ATTEMPT DOWNLOCK BY GROUND CREW",
-    "IF ALL 3 GEAR EXTENDED .......... LAND CAUTIOUSLY",
-    "IF ONE OR MORE NOT EXTENDED:",
-    "EVACUATE IN LOW HOVER",
-    "RETRACT GEAR",
-    "ENSURE AREA CLEAR",
-    "GEAR-UP LANDING ON PREPARED SURFACE"
-  ],
-  "crew": [],
-  "notes": [
-    "In cold weather extension may require more than 3 min",
-    "After extension wait at least 3 min before retraction (training)"
-  ],
-  "image": "images/emergency-lg-extension.jpeg"
-}
-]
+        }
+      ]
+    }
+  ]
 };
-
-  
-    
-
-
